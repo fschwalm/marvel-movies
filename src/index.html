@@ -1,0 +1,30 @@
+<!doctype html>
+<!-- Production mode: ng-strict-di -->
+<html ng-app="marvel">
+  <head>
+    <meta charset="utf-8">
+    <title>Marvel Movies</title>
+    <base href="/marvel-movies/" />
+    <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
+    <link rel="stylesheet" href="src/css/styles.css">
+  </head>
+  <body>
+    <marvel>
+      <span class="loader">Loading...</span>
+    </marvel>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <!-- Root Module -->
+    <script src="src/app/marvel.module.js"></script>
+    <!-- Root Component -->
+    <script src="src/app/marvel.component.js"></script>
+    <!-- Components Module -->
+    <script src="src/app/components/components.module.js"></script>
+    <!-- Movie Module -->
+    <script src="src/app/components/movie/movie.module.js"></script>
+    <!-- Movie Components -->
+    <script src="src/app/components/movie/movies/movies.component.js"></script>
+    <script src="src/app/components/movie/movie/movie.component.js"></script>
+    <!-- Movie Service -->
+    <script src="src/app/components/movie/movie.service.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body, marvel {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: #f5f5f5;
+}
+
+.movie-img>img {
+  width: 140px;
+  height: 140px;
+}
+
+article {
+  padding: 20px;
+  background: white;
+  display: flex;
+}
