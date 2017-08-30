@@ -1,0 +1,26 @@
+{
+  "name": "marvel-movies",
+  "version": "1.0.0",
+  "description": "Simple app to list marvel movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fschwalm/marvel-movies.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "fschwalm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fschwalm/marvel-movies/issues"
+  },
+  "homepage": "https://github.com/fschwalm/marvel-movies#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
