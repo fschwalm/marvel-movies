@@ -4,7 +4,9 @@
   "description": "Simple app to list marvel movies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run gulp browser-sync --no-online",
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,20 @@
     "url": "https://github.com/fschwalm/marvel-movies/issues"
   },
   "homepage": "https://github.com/fschwalm/marvel-movies#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.11.2",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^1.0.0",
+    "karma-htmlfile-reporter": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": ">=1.9",
+    "phantomjs-prebuilt": "^2.1.2"
+  },
   "dependencies": {
     "angular": "^1.6.4"
   }
