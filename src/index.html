@@ -12,7 +12,12 @@
     <marvel>
       <span class="loader">Loading...</span>
     </marvel>
+
+    <!-- build:js scripts/vendor.js -->
     <script src="node_modules/angular/angular.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/bundle.js -->
     <!-- Root Module -->
     <script src="src/app/marvel.module.js"></script>
     <!-- Root Component -->
@@ -26,5 +31,7 @@
     <script src="src/app/components/movie/movie/movie.component.js"></script>
     <!-- Movie Service -->
     <script src="src/app/components/movie/movie.service.js"></script>
+
+    <!-- endbuild -->
   </body>
 </html>
