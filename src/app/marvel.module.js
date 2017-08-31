@@ -3,7 +3,8 @@
 
   angular
     .module('marvel', [
-      'marvel.components'
+      'marvel.components',
+      'ui.router'
     ]);
 
 }());

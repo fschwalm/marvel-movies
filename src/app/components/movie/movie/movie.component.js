@@ -13,7 +13,7 @@
 
   function Controller() {
     var vm = this;
-
+    // Life cycle hooks
     vm.$onInit = onInit;
 
     function onInit() {

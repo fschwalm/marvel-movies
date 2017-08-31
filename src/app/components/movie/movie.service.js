@@ -21,13 +21,12 @@
     function _init() {
       _publicKey = "2c03c6a7795a22ae889c87130d6b9e2f";
       _baseUrl = "http://gateway.marvel.com/v1/public/comics";
-
     }
 
     function getComics() {
       return $http.get(_baseUrl, {
         params: {
-          limit: 15,
+          limit: 25,
           ts: Date.now(),
           apikey: _publicKey
         }

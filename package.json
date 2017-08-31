@@ -41,6 +41,7 @@
     "gulp-uglify": "^1.5.4"
   },
   "dependencies": {
-    "angular": "^1.6.4"
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.0-rc.1"
   }
 }
