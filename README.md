@@ -2,4 +2,5 @@
 
 ### Setup and install
 
-To run this app  run `npm install` and `npm start`. Run tests with `npm test`.
+To run this app  run `npm install` and `npm start`.
+To generate a production build `npm run build`.
