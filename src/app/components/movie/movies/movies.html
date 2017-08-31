@@ -1,1 +1,2 @@
+<select ng-model="$ctrl.order" ng-change="$ctrl.orderBy()" ng-options="option.label for option in $ctrl.orderOptions track by option.value"></select>
 <movie ng-repeat="movie in $ctrl.movies track by movie.id" movie="movie"></movie>
